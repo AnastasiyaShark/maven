@@ -13,9 +13,7 @@ public class Db {
         myEntity.setId(UUID.randomUUID());
     }
 
-    public DbSetting getDbSetting() {
-        return dbSetting;
-    }
+
 
     public MyEntity getMyEntity() {
         return myEntity;

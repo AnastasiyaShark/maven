@@ -12,9 +12,7 @@ public class MyService {
      String name = "myService";
      Db db = new Db(dbSetting);
 
-    public String getName() {
-        return name;
-    }
+   
 
     public MyEntity setMyEntity(MyEntity myEntity) {
         myEntity.setId(UUID.randomUUID());
